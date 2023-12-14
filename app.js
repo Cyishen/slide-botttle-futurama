@@ -38,9 +38,7 @@ function changeCarousel() {
     mockup.style.setProperty('--left', leftMockup + '%');
 
     clearInterval(refreshInterval);
-    refreshInterval = setInterval(()=> {next.click()}, 3000);
+    refreshInterval = setInterval(()=> {next.click()}, 5000);
 }
 
-
-// auto run 3s
-let refreshInterval = setInterval(()=> {next.click()}, 3000);
+let refreshInterval = setInterval(()=> {next.click()}, 5000);
